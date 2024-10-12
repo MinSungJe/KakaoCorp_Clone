@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/media-has-caption */
 
-import VideoComponent from '@/components/components'
+import VideoComponent from '@/components/VideoComponent'
 
 export default function Home() {
   return (
