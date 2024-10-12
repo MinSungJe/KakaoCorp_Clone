@@ -1,0 +1,13 @@
+.carousel {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.carousel>* {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
