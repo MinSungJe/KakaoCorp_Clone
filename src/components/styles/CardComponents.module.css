@@ -1,0 +1,58 @@
+.card-container {
+    width: 308px;
+    height: 365px;
+    overflow: hidden;
+    border-radius: 24px;
+    background-color: #f3f3f3;
+}
+
+.UpImageCard-contents-container {
+    padding: 0 15px 10px 15px;
+    height: 50%;
+}
+
+.UpImageCard-image-container {
+    height: 50%;
+    position: relative;
+}
+
+.contents-title {
+    position: relative;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contents-description {
+    height: 45%;
+}
+
+.contents-description>p {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.contents-tag {
+    height: 15%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    margin-left: 6px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+.tagText {
+    color: #666666;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 12px;
+}

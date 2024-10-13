@@ -1,0 +1,58 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.carousel>* {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.title {
+    max-width: 948px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+}
+
+.titleContent {
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titleGIF {
+    width: 72px;
+    height: 72px;
+    background-image: url('/ico_archives.gif');
+    background-size: cover;
+}
+
+.carouselStopBtn {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    background-image: url('/stop.svg');
+    background-size: cover;
+}
+
+.carouselStartBtn {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    background-image: url('/start.svg');
+    background-size: cover;
+}
