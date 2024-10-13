@@ -7,7 +7,7 @@
 }
 
 .UpImageCard-contents-container {
-    padding: 0 6px;
+    padding: 0 15px 10px 15px;
     height: 50%;
 }
 
@@ -17,16 +17,42 @@
 }
 
 .contents-title {
-    height: 25%;
+    position: relative;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .contents-description {
-    height: 60%;
+    height: 45%;
+}
+
+.contents-description>p {
+    font-weight: bold;
+    margin-bottom: 3px;
 }
 
 .contents-tag {
     height: 15%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    margin-left: 6px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+.tagText {
+    color: #666666;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-right: 12px;
 }
