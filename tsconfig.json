@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/pages/api/test.ts",
-    "src/app/pages/api/data/carousel.ts"
+    "src/app/pages/api/data/carousel.ts",
+    "src/constants/.d.ts"
   ],
   "exclude": ["node_modules"]
 }

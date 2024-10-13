@@ -8,11 +8,11 @@
 
 .UpImageCard-contents-container {
     padding: 0 6px;
-    height: 55%;
+    height: 50%;
 }
 
 .UpImageCard-image-container {
-    height: 45%;
+    height: 50%;
     position: relative;
 }
 
@@ -26,6 +26,7 @@
 .contents-description {
     height: 60%;
 }
+
 .contents-tag {
     height: 15%;
 }
