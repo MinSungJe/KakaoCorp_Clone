@@ -11,3 +11,42 @@
 .carousel::-webkit-scrollbar {
     display: none;
 }
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.titleContent {
+    display: flex;
+    align-items: center;
+}
+
+.titleText {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.titleGIF {
+    width: 72px;
+    height: 72px;
+    background-image: url('/ico_archives.gif');
+    background-size: cover;
+}
+
+.carouselStopBtn {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    background-image: url('/stop.svg');
+    background-size: cover;
+}
+
+.carouselStartBtn {
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+    background-image: url('/start.svg');
+    background-size: cover;
+}
