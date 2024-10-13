@@ -1,3 +1,7 @@
+.container {
+    margin-bottom: 20px;
+}
+
 .carousel {
     white-space: nowrap;
     overflow-x: scroll;
@@ -13,9 +17,11 @@
 }
 
 .title {
+    max-width: 948px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: auto;
 }
 
 .titleContent {

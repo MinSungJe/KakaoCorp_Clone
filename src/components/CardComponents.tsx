@@ -1,33 +1,53 @@
 import Image from 'next/image'
-import styles from './styles/CardComponents.module.css'
+import S from './styles/CardComponents.module.css'
 
 interface PropsType {
   title: string
-  description: string
+  description1: string
+  description2: string
   tag: string[]
   src: string
+  category_src: string
 }
 
 function TagText({ content }: { content: string }) {
-  return <p style={{ display: 'inline-block' }}>#{content}</p>
+  return <p className={S.tagText}>#{content}</p>
 }
 
-export function UpImageCard({ title, description, tag, src }: PropsType) {
+export function UpImageCard({
+  title,
+  description1,
+  description2,
+  tag,
+  src,
+  category_src,
+}: PropsType) {
   return (
-    <div className={styles['card-container']}>
-      <div className={styles['UpImageCard-contents-container']}>
-        <div className={styles['contents-title']}>
-          {title}
+    <div className={S['card-container']}>
+      <div className={S['UpImageCard-contents-container']}>
+        <div className={S['contents-title']}>
+          <div className={S.title}>
+            <Image
+              src={category_src}
+              width={32}
+              height={32}
+              alt="categoryThumbnail"
+            />
+            <p className={S.titleText}>{title}</p>
+          </div>
           <button type="button">더보기버튼</button>
         </div>
-        <div className={styles['contents-description']}>{description}</div>
-        <div className={styles['contents-tag']}>
+        <div className={S['contents-description']}>
+          <p>{description1}</p>
+          <p>{description2}</p>
+        </div>
+        <div className={S['contents-tag']}>
           {tag.map((content) => {
             return <TagText key="" content={content} />
           })}
         </div>
       </div>
-      <div className={styles['UpImageCard-image-container']}>
+      <div className={S['UpImageCard-image-container']}>
         <Image src={src} alt="ImageThumbnail" fill />
       </div>
     </div>

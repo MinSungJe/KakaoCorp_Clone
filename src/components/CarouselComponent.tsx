@@ -13,7 +13,7 @@ export default function CarouselComponent() {
   const data = useCarouselCardData()
 
   return (
-    <>
+    <div className={S.container}>
       <div className={S.title}>
         <div className={S.titleContent}>
           <div className={S.titleGIF} />
@@ -34,12 +34,14 @@ export default function CarouselComponent() {
           <UpImageCard
             key=""
             title={element.title}
-            description={element.description}
+            description1={element.description1}
+            description2={element.description2}
             tag={element.tag}
             src={element.src}
+            category_src={element.category_src}
           />
         ))}
       </div>
-    </>
+    </div>
   )
 }
