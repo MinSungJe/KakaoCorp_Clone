@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { IoMdMore } from 'react-icons/io'
 import S from './styles/CardComponents.module.css'
 
 interface PropsType {
@@ -35,7 +36,7 @@ export function UpImageCard({
             />
             <p className={S.titleText}>{title}</p>
           </div>
-          <button type="button">더보기버튼</button>
+          <IoMdMore size={32} />
         </div>
         <div className={S['contents-description']}>
           <p>{description1}</p>
