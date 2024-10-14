@@ -11,6 +11,7 @@
 
 .Video {
     height: 100%;
+    border-radius: 10px;
 }
 
 .CardContainer {
@@ -46,7 +47,7 @@
     }
 
     .VideoContainer {
-        height: 405px;
+        height: 400px;
     }
 
     .Video {
@@ -77,7 +78,7 @@
     }
 
     .VideoContainer {
-        height: 270px;
+        height: 217px;
     }
 
 
