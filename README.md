@@ -2,7 +2,7 @@
 
 [카카오 메인페이지](https://www.kakaocorp.com/page/) 클론코딩하는 레포지토리입니다.
 
-👉 페이지 방문: https://kakao-corp-clone.vercel.app/
+👉 main 페이지 방문: [여기를 눌러주세요](https://kakao-corp-clone-v1main.vercel.app/)
 
 ## 🎯 커밋 규칙
 
