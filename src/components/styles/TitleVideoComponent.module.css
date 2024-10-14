@@ -9,6 +9,10 @@
     height: 450px;
 }
 
+.Video {
+    height: 100%;
+}
+
 .CardContainer {
     width: 180px;
     display: flex;
@@ -33,4 +37,62 @@
     border-radius: 10px;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 712px;
+        display: block;
+        margin: auto;
+    }
+
+    .VideoContainer {
+        height: 405px;
+    }
+
+    .Video {
+        width: 100%;
+    }
+
+    .CardContainer {
+        width: 712px;
+        flex-direction: row;
+    }
+
+    .Card {
+        width: 100%;
+        height: 135px;
+    }
+
+    .CardContainer div:nth-child(3) {
+        height: 135px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 384px;
+        display: block;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .VideoContainer {
+        height: 270px;
+    }
+
+
+    .CardContainer {
+        width: 384px;
+    }
+
+    .Card {
+        width: 100%;
+        height: 90px;
+    }
+
+    .CardContainer div:nth-child(3) {
+        height: 90px;
+    }
+
 }
