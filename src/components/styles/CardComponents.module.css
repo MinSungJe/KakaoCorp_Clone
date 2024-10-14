@@ -56,3 +56,40 @@
     font-size: 0.8rem;
     margin-right: 12px;
 }
+
+@media screen and (max-width: 1024px) {
+    .card-container {
+        width: 252px;
+        height: 309px;
+    }
+
+    .UpImageCard-contents-container {
+        height: 60%;
+        padding: 0 10px 5px 10px;
+    }
+
+    .UpImageCard-image-container {
+        height: 40%;
+    }
+
+    .titleText {
+        padding: 4px 8px;
+        font-size: 0.7rem;
+    }
+
+    .contents-description>p {
+        font-size: 0.9rem;
+        margin-bottom: 2px;
+    }
+
+    .tagText {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 232px;
+        height: 328px;
+    }
+}
