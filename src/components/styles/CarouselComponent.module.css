@@ -20,7 +20,8 @@
     max-width: 948px;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    align-items: center;
+    padding: 20px 0;
     margin: auto;
 }
 
@@ -55,4 +56,57 @@
     height: 56px;
     background-image: url('/start.svg');
     background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        max-width: 712px;
+    }
+
+    .titleGIF {
+        width: 48px;
+        height: 48px;
+    }
+
+    .carouselStopBtn {
+        width: 32px;
+        height: 32px;
+    }
+
+    .carouselStartBtn {
+        width: 32px;
+        height: 32px;
+    }
+
+    .titleText {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        max-width: 384px;
+        display: block;
+        margin: auto;
+    }
+
+    .titleGIF {
+        display: none;
+    }
+
+    .carouselStopBtn {
+        margin: 0 0 0 auto;
+        width: 32px;
+        height: 32px;
+    }
+
+    .carouselStartBtn {
+        margin: 0 0 0 auto;
+        width: 32px;
+        height: 32px;
+    }
+
+    .titleText {
+        font-size: 1.4rem;
+    }
 }
